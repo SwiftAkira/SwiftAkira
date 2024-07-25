@@ -1,0 +1,7 @@
+- 👋 Hi, I’m @SwiftAkira (Call me Swift)
+- 👀 I’m interested in: Caffine, and thats pretty much it
+- 🌱 I’m currently learning: Kotlin
+- 💞️ I’m looking to collaborate on: Project Akira lmk if anyone wants to help, as i do want to make it fully open source.
+- 📫 How to reach me: Discord: swlft_
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I hate python, but also love it :D
