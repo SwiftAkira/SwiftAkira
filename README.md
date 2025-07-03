@@ -1,49 +1,57 @@
-👋 Hi there, I’m @SwiftAkira (Call me Swift)!
+---
 
-👀 I’m interested in building intelligent web applications and fueled primarily by caffeine.
+### 👋 Hi there, I’m @SwiftAkira — Call me Orion!
 
-🌱 I’m currently learning Kotlin while deepening my expertise in full-stack development and AI integration.
+An AI/ML engineer (still learning some things) and full‑stack developer fueled primarily by caffeine ☕.
 
 ---
 
-### ✨ Featured Project: SmartScribe (AI Content Assistant)
+## 🌟 Recent Highlights (Last 5 Months)
 
-I've been actively developing SmartScribe, an AI-powered platform designed to assist with academic writing and content transformation.
+### 🔧 Transformers Core Contributor
 
-*   **Core Functionality:** Enables users to create projects, upload documents (source material + rubrics/requirements), and generate structured outlines based on specific AI settings and academic constraints.
-*   **Tech Stack:** React, TypeScript, Node.js, Express, Supabase (Postgres, Storage, RLS), Clerk (Auth), Google AI (Gemini), Shadcn UI, Tailwind CSS, Vite.
-*   **Key Features Implemented:**
-    *   Secure multi-file uploads with Supabase Storage and signed URLs.
-    *   Integration with Google Gemini for:
-        *   Hierarchical outline generation tailored by user settings (length, style, document type, academic level, etc.) and text context.
-        *   Automated extraction of academic requirements (citation style, word count) from uploaded rubric files using targeted AI analysis.
-    *   Robust backend API with authentication and fine-grained data access control via Supabase RLS.
-    *   Interactive multi-step frontend wizard using React, TypeScript, Shadcn UI, and react-hook-form.
-*   *(This project involved significant full-stack debugging across authentication, database interactions, API logic, component state, and AI response handling.)*
+* **Fixed a critical bug** in Hugging Face Transformers: filtered out `None` router logits when using `mlp_only_layers` with `output_router_logits=True`. The fix was accepted and merged as PR \[#39206], resolving issue \[#39203].
+* Deepened expertise with MoE model architecture, auxiliary loss functions, and advanced inference logic.
 
----
+### 🛠 Full‑Stack Project: SmartScribe (AI Content Assistant)
 
-### 💻 Languages and Tools
+Built a robust platform to streamline academic content creation:
 
-*   **Frontend:** React, TypeScript, Vite, Tailwind CSS, Shadcn UI
-*   **Backend:** Node.js, Express.js
-*   **Database:** Supabase (PostgreSQL, Storage, Auth/RLS)
-*   **Authentication:** Clerk
-*   **AI:** Google AI (Gemini)
-*   **Learning:** Kotlin
-*   **Other:** Git, REST APIs, JSON, Multer, pdfjs-dist
-  
----
+* **Tech Stack**: React, TypeScript, Node.js, Supabase, Clerk, Google Gemini, Tailwind & Shadcn UI
+* **AI Logic**: Generated structured outlines from documents + rubrics; extracted academic constraints (citation style, word count) via AI
+* **Backend**: Supabase authentication + storage (signed URLs + RLS), Express APIs, secure file handling
+* **Frontend**: Multi-step wizard with interactive forms, PDF handling, resilient edge-case management
 
-### 📫 How to Reach Me
+### ☁️ Platform Engineering: ONAIR
 
-*   **Discord:** `swlft_`
+* Contributed to production-grade CI/CD pipelines with **Docker**, **Kubernetes**, and **ArgoCD**
+* Managed diverse **YAML configs** for deployment, secrets, autoscaling, and resource allocation
+* Designed and maintained infrastructure on **AWS** (EKS, ECR, IAM, S3, RDS) for scalable service delivery
 
 ---
 
-*   😄 **Pronouns:** He/Him
-*   ⚡ **Fun fact:** I have a love-hate relationship with Python :D
+## ⚙️ Technical Toolkit
+
+* **Languages**: TypeScript, Python, Kotlin (learning)
+* **Frontend**: React, Vite, Tailwind, Shadcn UI
+* **Backend**: Node.js, Express.js
+* **Database**: Supabase (PostgreSQL, Storage, Auth, RLS)
+* **Auth & Storage**: Clerk authentication, Supabase storage (signed URLs)
+* **AI Systems**: Google Gemini, Hugging Face Transformers
+* **ML Dev**: MoE modeling, Transformer pipelines, caching, performance tuning
+* **DevOps & CI/CD**: Docker, Kubernetes, ArgoCD, AWS EKS/ECR/RDS/S3, GitHub Actions, Ruff, pytest
+* **Other Tools**: pdfjs‑dist, Multer, REST APIs, YAML config management
 
 ---
 
-Thanks for stopping by! Feel free to check out my pinned repositories.
+## 📫 Reach Me
+
+* **Discord**: `swlft_`
+* **Pronouns**: He/Him
+* **Fun Fact**: I have a love-hate relationship with Python—but still use it daily! 😄
+
+---
+
+Thanks for stopping by! Feel free to check out my pinned repositories and open-source contributions.
+
+---
